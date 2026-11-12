@@ -1,0 +1,13 @@
+{
+  "name": "prototype-mahimj",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Fills the GitHub contribution graph with backdated commits on random days",
+  "main": "index.js",
+  "scripts": {
+    "plan": "node index.js --dry-run",
+    "start": "node index.js",
+    "fill": "node index.js --push"
+  },
+  "license": "UNLICENSED"
+}
